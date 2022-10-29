@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Selectors</title>
+    <style>
+      div p {
+        color: purple;
+        margin: 20px;
+        padding: 10px;
+        word-spacing: 2px;
+      }
+      div > p {
+        color: darkorchid;
+      }
+      #video {
+        color: blueviolet;
+      }
+      #orator {
+        color: greenyellow;
+      }
+      .society {
+        color: pink;
+      }
+      a:active {
+        color: midnightblue;
+      }
+      a:visited {
+        color: red;
+      }
+      .button:hover {
+        color: lime;
+      }
+    </style>
+  </head>
+  <body>
+    <div>
+      <p>
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsa, quos?
+      </p>
+      <p>Lorem ipsum dolor sit amet.</p>
+      <section>
+        <p>
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sunt
+          explicabo dolorum quaerat cum non. Molestiae voluptate ut vitae illo
+          asperiores!
+        </p>
+      </section>
+    </div>
+    <br /><br />
+    <h1 id="video">Video Editor</h1>
+    <h1 id="orator">Orator</h1>
+    <h2 class="society">KIIT-Khwahishein</h2>
+    <h2 class="society">NSS</h2>
+    <a href="https://www.google.co.in" target="_blank">GOOGLE</a>
+    <a href="https://www.github.com" target="_blank">GITHUB</a>
+    <br /><br />
+    <button type="reset" onclick="alert('Are your sure?')">RESET</button>
+  </body>
+</html>

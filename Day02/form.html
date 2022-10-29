@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0" />
+    <title>Ishu's Form</title>
+  </head>
+  <body>
+    <form>
+      <fieldset>
+        <legend>Personal Info</legend>
+        <b>Username</b>
+        <input type="text" placeholder="Enter username" required />
+        <br /><br />
+        <label for="name"><b>USERNAME</b></label>
+        <input type="text" id="name" placeholder="Username using Label tag" />
+        <br /><br />
+        <b>Password</b>
+        <input type="password" placeholder="Enter your password" required />
+        <br /><br />
+        <label for="password"><b>PASSWORD</b></label>
+        <input
+          type="password"
+          id="password"
+          placeholder="Password using label tag"
+          required
+        />
+        <br /><br />
+        <b>Phone number</b>
+        <input type="number" placeholder="Phone number" required />
+        <br /><br />
+        <b>Drinks Preferred</b>
+        <input type="radio" name="r1" />Coffee
+        <input type="radio" name="r1" />Tea
+        <input type="radio" name="r1" />Others <br /><br />
+        <b>Passion</b>
+        <input type="checkbox" name="r2" />Photography
+        <input type="checkbox" name="r2" />Cooking
+        <input type="checkbox" name="r2" />Gaming <br /><br />
+        <label for="sport"><b>Fav Sport</b></label>
+        <select id="sport">
+          <option selected disabled>Sport</option>
+          <option>Cricket</option>
+          <option>Football</option>
+          <option>Badminton</option>
+          <option>Basketball</option>
+          <option>Others</option>
+        </select>
+        <br /><br /><label for="year"><b>Department</b> </label>
+        <select id="year">
+          <option selected disabled>Dept</option>
+          <option>CSE</option>
+          <option>IT</option>
+          <option>EEE</option>
+          <option>OTHERS</option>
+        </select>
+        <br /><br />
+        <label for="exp"><b>Experience</b></label>
+        <textarea
+          id="exp"
+          rows="5"
+          cols="20"
+          placeholder="Share your experience of programming(if any)"
+          required
+        ></textarea>
+        <br /><br />
+        <b>Date</b>
+        <input type="date" />
+        <br /><br />
+        <button type="submit" onclick="alert('Thanks for submitting')">
+          SUBMIT
+        </button>
+        <button type="reset" onclick="alert('Are your sure?')">RESET</button>
+      </fieldset>
+    </form>
+  </body>
+</html>
