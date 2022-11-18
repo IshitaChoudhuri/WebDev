@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="registration.css">
+    <title>Registration</title>
+  </head>
+  <body>
+    <div class="form">
+        <div class="form-content">
+            <form id="myform" onsubmit="return validateForm()">      
+        <center>
+          <u><h2>REGISTRATION FORM</h2></u>
+        </center>
+        <br />
+
+        <b>Name: </b>
+        <input type="text" placeholder="Enter name here" name="name" required />
+        <br /><br />
+        <b>Phone: </b>
+        <input type="number" placeholder="Phone number" name="mobile" required />
+        <br /><br />
+        <label for="number"><b>Email: </b></label>
+        <input
+          type="email" name="email"
+          placeholder="Enter your email here"
+          required
+        />
+        <br /><br />
+        <b>Gender: </b>
+        <input type="radio" name="gender" value="male" />Male
+        <input type="radio" name="gender" value="female"/>Female
+        <input type="radio" name="gender" value="others"/>Others <br /><br />
+        <b>Qualification: </b>
+        <input type="radio" name="qual" />Student
+        <input type="radio" name="qual" />Teacher <br /><br />
+        <b>Course: </b><br />
+        <input type="radio" name="course" />Web Development
+        <input type="radio" name="course" />App Development <br /><br />
+        <label for="country"><b>Country:</b></label>
+        <select id="country">
+          <option selected disabled>India</option>
+          <option>US</option>
+          <option>UAE</option>
+          <option>Russia</option>
+          <option>Germany</option>
+          <option>Italy</option>
+        </select>
+        <br /><br />
+        <p><b>Conditions:</b>
+            <ol>
+                <li>Each user shall register only once.</li>
+                <li>It is the user's responsibility to make sure that she/he has sufficient access <br>to Internet to participate to the activities at the desired extent</li>
+            </ol>
+        </p>
+        <input type="checkbox" name="message" />"I've read all the terms and
+        conditions" <br /><br />
+        <label for="exp"><b>Comments:</b></label>
+        <textarea
+          id="exp"
+          rows="5"
+          cols="20"
+          placeholder="Enter your feedback here"
+          
+        ></textarea>
+        <br /><br />
+        <button type="submit" value="Submit" id="loginButton">
+          Save Changes
+        </button>
+        <button type="reset" onclick="alert('Are your sure?')">Clear</button>
+    </form>
+    </div>
+    </div>
+    <script src="registration.js"></script>
+  </body>
+</html>

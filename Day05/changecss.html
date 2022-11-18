@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Day05</title>
+    <style>
+      #container {
+        width: 100px;
+        height: 100px;
+        background-color: yellow;
+      }
+      #animate {
+        width: 20px;
+        height: 20px;
+        background-color: red;
+      }
+    </style>
+  </head>
+  <body>
+    <h1 id="h1">Ishita Choudhuri</h1>
+    <button type="button" onclick="back()">Click me</button>
+    <button type="button" onmouseover="change()">
+      <a href="https://www.google.co.in">Google</a>
+    </button>
+    <br /><br />
+
+    <div id="container">
+      <div id="animate"></div>
+    </div>
+    <h2>JAVASCRIPT HTML EVENTS</h2>
+    Enter your name: <input type="text" id="frame" onchange="upperCase()" />
+    <p>
+      When you leave the input field, a function is triggered which transforms
+      the input from lower to upper case
+    </p>
+    <br />
+    <button id="ishita" onclick="back()">Click me</button>
+    <script src="./content.js">
+      //   function change() {
+      //     document.getElementById("ishita").style.color = "blue";
+      //   }
+        //     function move() {
+        //       let id = null;
+        //       const elem = document.getElementById("animate");
+        //       let pos = 0;
+        //       clearInterval(id);
+        //       id = setInterval(frame, 5);
+        //       function frame() {
+        //         if (pos == 350) {
+        //           clearInterval(id);
+        //         } else {
+        //           pos++;
+        //           elem.style.top = pos + "px";
+        //           elem.style.left = pos + "px";
+        //         }
+        //       }
+        //     }
+        //   }
+      //   function upperCase() {
+      //     const x = document.getElementById("frame");
+      //     x.value = x.value.toUpperCase();
+      //   }
+      //   function back() {
+      //     const x = document.getElementById("ishita");
+      //     x.value = window.history.back();
+      //   }
+    </script>
+  </body>
+</html>

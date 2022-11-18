@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>The title</title>
+  </head>
+  <body>
+    <h1>Javascript HTML DOM</h1>
+    <div id="main">
+      <p class="a">Finding HTML elements by tag name</p>
+      <p class="a">
+        This example demonstrates the <b>getElementsByTagName </b>method
+      </p>
+      <p class="a">
+        This example demonstrates the <b>getElementsByTagName </b>method
+      </p>
+      <p class="a">
+        This example demonstrates the <b>getElementsByTagName </b>method
+      </p>
+    </div>
+    <p id="demo"></p>
+    <img
+      id="imag"
+      src="https://images.unsplash.com/photo-1666803276136-018dd044a920?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHw0fHx8ZW58MHx8fHw%3D&auto=format&fit=crop&w=600&q=60"
+      alt="appstore"
+      height="500"
+      width="400"
+    />
+    <script>
+      var obj = document.getElementById("imag");
+      const a = document.getElementsByClassName("a");
+      a[1].innerHTML = "change";
+      //   for (var i = 0; i < a.length; i++) {
+      //     a[i].innerHTML = "Ishita";
+      //   }
+      console.log(a.length);
+      obj.src =
+        "https://images.unsplash.com/photo-1667619354433-d29c7abd8814?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwyN3x8fGVufDB8fHx8&auto=format&fit=crop&w=600&q=60";
+      obj("imag").width = "360";
+      obj("imag").height = "390";
+      //   document.getElementById("demo").innerHTML = "garbage Value";
+      //   const x = document.getElementById("main");
+      //   const y = x.getElementsByTagName("p");
+      //   y[0].innerHTML = y.length;
+    </script>
+  </body>
+</html>

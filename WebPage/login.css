@@ -1,0 +1,95 @@
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+.nav-bar{
+    height: 75px;
+    display: flex;
+    background-color: black;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 30px;
+}
+.list{
+    width: 350px;
+    display: flex;
+    justify-content: space-between;
+}
+.links{
+    color: white;
+    text-decoration: none;
+    font-size: x-large;
+}
+.btn1{
+    background-color: green;
+    
+    }
+    .btn2{
+        background-color: red;
+    }
+    .btn1, .btn2{
+        color: white;
+        padding: 14px 20px;
+        border-radius: 10px;
+        font-size: large;
+        text-decoration: none;
+    }
+    .login{
+        height: 400px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .login-box{
+        border: 2px solid black;
+        background-color: rgba(170, 182, 198, 0.5);
+        width: 300px;
+        height: fit-content;
+        padding: 40px;
+        border-radius: 10px;
+        box-shadow: 0 15px 25px rgba(0, 0, 0, 0.6); 
+        /* x-axis,y-axis,spread,color */
+    }
+    .login-box h1{
+        text-align: center;
+    }
+    .user{
+        font-size: large;
+
+    }
+      .form-inp{
+        background: transparent;
+        border: none;
+        border-bottom: 1px solid rgba(82, 82, 185, 0.3);
+        width: 100%;
+        padding: 10px 5px;
+    }
+    .lgbtn{
+        background-color: rgba(115, 143, 196, 0.5);
+        font-size: 13px;
+        padding: 6px;
+        border: 1px solid gray;
+        border-radius: 5px;
+    }
+    hr{
+        width: 80%;
+        height: 3px;
+        background-color: black;
+    }
+    .footer{
+        display: flex;
+        justify-content: space-between;
+        padding: 100px;
+    }
+    .footer-links{
+        display: flex;
+        width: 400px;
+        justify-content: space-between;
+    }

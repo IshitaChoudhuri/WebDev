@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="login.css" />
+    <title>Login</title>
+  </head>
+  <body>
+    <!-- navbar -->
+    <div class="nav-bar">
+      <div>
+        <img
+          src="https://krs.kiit.ac.in/assets/KRS.b5e08628.png"
+          alt="KRS LOGO"
+          height="50px"
+        />
+      </div>
+      <div class="list">
+        <a class="links" href="">Home</a>
+        <a class="links" href="#about">About us</a>
+        <a class="links" href="#footer">Contact us</a>
+      </div>
+      <div class="button">
+        <a class="btn1" href="">Login</a>
+        <a class="btn2" href="registration.html" target="_blank">Register</a>
+      </div>
+    </div>
+    <!-- login-box -->
+    <div class="login">
+      <div class="login-box">
+        <h1>LOGIN</h1>
+        <br />
+        <form id="myform">
+          <div class="user">
+            <label for="name">Username</label><br />
+            <input
+              class="form-inp"
+              type="text"
+              name="username"
+              placeholder="Enter your username"
+              required
+            />
+            <div class="error" id="usernameErr"></div>
+            <br /><br />
+          </div>
+          <div class="pass">
+            <label for="password">Password</label><br />
+            <input
+              class="form-inp"
+              type="password"
+              name="password"
+              placeholder="Enter your password"
+              required
+            />
+            <div class="error" id="passwordErr"></div>
+          </div>
+          <br />
+          <div>
+            <button class="lgbtn" type="button" id="loginButton">Submit</button>
+            <button class="lgbtn" 5>Clear</button>
+          </div>
+        </form>
+      </div>
+    </div>
+    <!-- footer -->
+    <center><hr /></center>
+    <div class="footer" id="footer">
+      <div>
+        <img
+          src="https://krs.kiit.ac.in/assets/KRS.b5e08628.png"
+          alt="logo"
+          width="80%"
+        />
+      </div>
+      <div class="footer-links">
+        <div>
+          <h2>SideMap</h2>
+          <h4>Home</h4>
+          <h4>About</h4>
+          <h4>Contact Us</h4>
+        </div>
+        <div>
+          <h2>Contact Us</h2>
+          <h4>Instagram</h4>
+          <h4>Facebook</h4>
+          <h4>Youtube</h4>
+          <h4>Email</h4>
+        </div>
+      </div>
+    </div>
+    <script src="/login.js"></script>
+  </body>
+</html>

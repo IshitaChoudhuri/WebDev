@@ -1,272 +1,329 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-	<meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <meta http-equiv="x-ua-compatible" content="ie=edge" />
 
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="css.css">
-       <title>Madang: Food delivery</title>
-</head>
-
-<body>
-  <div class="first-box">
-    <nav class="navbar navbar-light navbar-expand-sm fixed-top" id="top">
-        <div class="container">
-           <a class="navbar-brand" href="index.html"><img src="./madang-logo.svg" height="50.6" width="212"></a>
-           
-           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#Navbar">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="Navbar">
-                <div class="navbar-nav mr-auto">
-                    <div class="nav-item active"><a class="nav-link" href="index.html"></span>Home</a></div>
-                    <div class="nav-item"><a class="nav-link" href="about.html"></span> About</a></div>
-                    <div class="nav-item"><a class="nav-link" href="menu.html"></span> Menu</a></div>
-                    <div class="nav-item "><a class="nav-link" href="contact.html"></span> Contact</a></div>
-                    <div class="nav-item cart"><a class="nav-link" href="#"> Cart</a></div>
-                </div>   
-              </div>
-
-        </div>
-        
-    </nav>
-   	<div class="container">
-          <img src="./home-banner1.jpg" height="20%" width="100%" >
-          <!-- <div class="top-left"><h1>Healthy</h1><br><h1>Inside, Fresh</h1><br><h1>Outside</h1></div> -->
+    <link rel="stylesheet" href="css.css" />
+    <title>Madang: Food delivery</title>
+  </head>
+  <nav class="navbar">
+    <!---logo-->
+    <div class="logo">
+      <img
+        class="madang"
+        src="./madang-logo.svg" width="200px"
+      />
+    </div>
+    <!---navigation menu-->
+    <ul class="nav-links">
+      <!--navigation-menu-->
+      <div class="menu">
+        <li><a class="ru" style="color: black" href="/">ABOUT US</a></li>
+        <li><a class="ru" style="color: black" href="/">MENU</a></li>
+        <li><a class="ru" style="color: black" href="/">CAPABILITIES</a></li>
+        <li><a class="ru" style="color: black" href="/">SEARCH MENU</a></li>
+        <li class="item">
+          <a class="ru" href="./">
+            <button type="login" onclick="alert('items')"><i style="color:rgb(21, 229, 21)" class="fa-solid fa-cart-shopping"></i>(0)Items</button>
+          </a>
+        </li>
       </div>
-  <div class="container ">
-    <div class="row how">
-      <div class="col-12 text-center work">
-        HOW IT WORKS
-      </div>
-      <div class="col-12 col-sm-4 text-center item"><a href="#top">
-        <img src="./meal.svg" height="103" width="124"></a>
-        <h4>Choose Your Favorite</h4>
-        Choose your favorite meal and order it online. It's easy to customize your order.
-      </div>
-      <div class="col-12 col-sm-4 text-center  item" ><a href="#top">
-        <img src="./delivery.svg" height="103" width="124"></a>
-        <h4>We Deliver Your Food</h4>
-        Choose your favorite meal and order it online. It's easy to customize your order.
-      </div>
+    </ul>
+  </nav>
+    <div class="container1">
+      <img src="./home-banner1.jpg" height="20%" width="100%" />
+      <div class="top-left"><h1>Healthy</h1><h1>Inside,   Fresh</h1><i style="color: darkgreen;"><h1>Outside</h1></i>We deliver healthy food that are ready to<br>eat. Just choose your own menu you like.<br><br>
+      <button type="button" id="learn-more">Learn More</button>
+    </div>
+    </div>
       
-      <div class="col-12 col-sm-4 text-center item"><a href="#top">
-        <img src="./eat-enjoy.svg" height="103" width="124"></a>
-        <h4>Eat And Enjoy</h4>
-        No Shopping, No cooking, No counting and No cleaning. Just order and eat.
+    </div>
+
+    <br /><br /><br /><br />
+    <center><h3>HOW IT WORKS</h3></center>
+    <br /><br />
+    <div class="clearfix">
+      <div class="img-container">
+        <img src="./meal.svg" alt="meal" />
+        <h4>Choose your favourite</h4>
+        Choose your favorite meals and <br />order online or by phone. It's
+        <br />easy to customize your order.
+      </div>
+      <div class="img-container">
+        <img src="./delivery.svg" alt="delivery" />
+        <h4>We Deliver your meals</h4>
+        We prepared and delivered <br />meals arrive at your door. Duis
+        <br />autem vel eum iriure dolor in <br />hendrerit in vulputate.
+      </div>
+      <div class="img-container">
+        <img src="./eat-enjoy.svg" alt="eat" />
+        <h4>Eat and Enjoy</h4>
+        No shooping, no cooking, no <br />counting and no cleaning. Enjoy
+        <br />your healthy meals with your <br />family.
       </div>
     </div>
-</div>
 
-
-
-<div class="container">
-  <div class="row">
-    <div class="col-12 col-sm-4 text-center featured"><a href="#">
-      <img src="./shutterstock_381703429-290x290.jpeg" height="25%" width="25%" class="zoom"></a>
-      <div class="make-green ">Grilled Salmon</div><div class="make-black ">With Lime Butter Sauce</div>
+    <br /><br /><br /><br />
+    <br />
+    <center><h4>OUR FEATURED MENU</h4></center>
+    <div class="container">
+      <div class="khana">
+        <img
+          src="./shutterstock_381703429-290x290.jpeg"
+          height="200px"
+          width="200px"
+        />
+        <div class="make-green"><u>Grilled Salmon</u></div>
+        <div class="make-black"><u>With Lime Butter Sauce</u></div>
+      </div>
+      <div class="khana">
+        <img
+          src="./shutterstock_251690740-290x290.jpeg"
+          height="200px"
+          width="200px"
+        />
+        <div class="make-green"><u>Grilled Roast Vegetable</u></div>
+        <div class="make-black"><u>With tofu or soyabean curd</u></div>
+      </div>
+      <div class="khana">
+        <img
+          src="shutterstock_251208661-290x290.jpeg"
+          height="200px"
+          width="200px"
+        />
+        <div class="make-green"><u>Tomatoes sandwiches</u></div>
+        <div class="make-black"><u>With tofu or soyabean curd</u></div>
+      </div>
+      <div class="khana">
+        <img
+          src="./shutterstock_368479814-290x290.jpeg"
+          height="200px"
+          width="200px"
+        />
+        <div class="make-green"><u>Grilled Roast Vegetables</u></div>
+        <div class="make-black"><u>With tofu or soyabean curd</u></div>
+      </div>
     </div>
-    <div class="col-12 col-sm-4 text-center featured"><a href="#"> 
-      <img src="./shutterstock_251690740-290x290.jpeg" height="25%" width="25%" class="zoom"></a>
-      <div class="make-green ">Grilled Roast Vegetable</div><div class="make-black ">With tofu or soyabean curd</div>
-    </div>
-    <div class="col-12 col-sm-4 text-center featured"><a href="#">
-      <img src="shutterstock_251208661-290x290.jpeg" height="25%" width="25%" class="zoom"></a>
-      <div class="make-green ">Tomatoes sandwiches</div><div class="make-black ">With tofu or soyabean curd</div>
-    </div>
-    <div class="col-12 col-sm-4 text-center featured"><a href="#">
-      <img src="./shutterstock_368479814-290x290.jpeg" height="25%" width="25%" class="zoom"></a>
-      <div class="make-green ">Grilled Roast Vegetables</div><div class="make-black ">With tofu or soyabean curd</div>
-    </div>
-
-
+    <!-- 
     <div>
       <a href="play.google.com"><img src="./google-play.png" height=25% width=25%></a>
       <a href="https://www.apple.com/in/app-store/"><img src="./app-store.png" height=50% width=50%></a>
 
-    </div>
-
-</div>
-</div>
-<div class="menu">  <section class="block cat-list-wrap">
-  <div class="container">
-      <div class="row">
-          <div class="col-sm-12 top-text-header text-center wow fadeInUp">
-              <h4 class="text-uppercase text-lt text-sp make-black">MENU CATEGORIES</h4>
-          </div>
+    </div> -->
+    <br /><br /><br /><br />
+    <div class="parent">
+      <div class="one">
+        <img src="./select-program-image.png" />
       </div>
-
-                      <div class="row">
-              
-                          <!--single cat -->
-                          <div class="col-sm-3 text-center cat-wrap wow fadeInLeft">
-                              <a href="category.html" class="ajax_cat" data-cat="Breakfast">
-                                  <span class="centered">Breakfast</span>
-                                  <!-- <figure> -->
-                                    <img  src="./shutterstock_350816009-270x270.jpeg" alt="Breakfast">
-                                  <!-- </figure> -->
-                              </a>
-                          </div>
-                          <!-- singel cat ends-->
-
-                      
-                  
-                          <!--single cat -->
-                          <div class="col-sm-3 cat-wrap wow fadeInLeft">
-                              <a href="category.html" class="ajax_cat" data-cat="Dessert">
-                                  <span class="centered">Dessert</span>
-                                  <figure>
-                                    <img src="./MAPLE-PECAN-MUFFINS-3-WATERMARK-270x270.jpg" alt="Dessert">
-                                  </figure>
-                              </a>
-                          </div>
-                          <!-- singel cat ends-->
-
-                      
-                  
-                          <!--single cat -->
-                          <div class="col-sm-3 cat-wrap wow  fadeInLeft">
-                              <a href="category.html" class="ajax_cat" data-cat="Dinner">
-                                  <span class="centered">Dinner</span>
-                                  <figure>
-                                    <img src="./shutterstock_153843404-270x270.jpeg" alt="Dinner">
-                                </figure>
-                              </a>
-                          </div>
-                          <!-- singel cat ends-->
-
-                      
-                  
-                          <!--single cat -->
-                          <div class="col-sm-3 cat-wrap wow text-center fadeInLeft">
-                              <a href="category.html" class="ajax_cat" data-cat="Meat &amp; Fish">
-                                  <span class="centered">Meat &amp; Fish</span>
-                                  <figure>
-                                    <img src="./menu-img2.jpg" alt="Meat &amp; Fish">
-                                  </figure>
-                              </a>
-                          </div>
-                          <!-- singel cat ends-->
-
-                      
-                  
-                          <!--single cat -->
-                          <div class="col-sm-3 cat-wrap wow fadeInLeft">
-                              <a href="category.html" class="ajax_cat" data-cat="Lunch">
-                                  <span class="centered">Lunch</span>
-                                  <figure>
-                                     <img src="./shutterstock_2735862711-270x270.jpeg" alt="Lunch">
-                                  </figure>
-                              </a>
-                          </div>
-                          <!-- singel cat ends-->
-
-                      
-                  
-                          <!--single cat -->
-                          <div class="col-sm-3 cat-wrap wow fadeInLeft">
-                              <a href="category.html" class="ajax_cat" data-cat="Salads">
-                                  <span class="centered">Salads</span>
-                                  <figure>
-                                    <img src="./featured-image5-270x270.jpg" alt="Salads">
-                                  </figure>
-                              </a>
-                          </div>
-                          <!-- singel cat ends-->
-
-                      
-                  
-                          <!--single cat -->
-                          <div class="col-sm-3 cat-wrap wow fadeInLeft">
-                              <a href="category.html" class="ajax_cat" data-cat="Soups">
-                                  <span class="centered">Soups</span>
-                                  <figure>
-                                    <img src="./menu-img3.jpg" alt="Soups">
-                                  </figure>
-                              </a>
-                          </div>
-                          <!-- singel cat ends-->
-
-                      
-                  
-                          <!--single cat -->
-                          <div class="col-sm-3 cat-wrap wow fadeInLeft">
-                              <a href="category.html" class="ajax_cat" data-cat="Vegetarian">
-                                  <span class="centered">Vegetarian</span>
-                                  <figure>
-                                    <img src="./shutterstock_251208661-270x270.jpeg" alt="Vegetarian">
-                                  </figure>
-                              </a>
-                          </div>
-              </div>
-</section>
-  
-
-  <footer class="footer">
-        <div class="container">
-            <div class="row">             
-                <div class="col-4 col-sm-3">
-                    <img src="./madang-logo.svg" alt="Logo" height="200px" width="100px">
-                    <ul class="list-unstyled">
-                        <a href="index.html"><b>Nutrition</b></a>
-                        <a href="about.html"><b>Products</b></a>
-                        <a href="menu.html"><b>Pricing</b></a>
-                        <a href="contact.html"><b>Support</b></a>
-                    </ul>
-                </div>
-                <!-- <div class="col-7 col-sm-5">
-                    <h5>Our Address</h5>
-                    <address>
-		              121, Clear Water Bay Road<br>
-		              Clear Water Bay, Kowloon<br>
-		              Chandni Chowk<br>
-		             <i class="fa fa-phone fa-lg"></i>: +91 31234 35678<br>
-                      <i class="fa fa-fax fa-lg"></i>: +91 97198 45673<br>
-                      <i class="fa fa-envelope fa-lg"></i>: 
-                      <a href="mailto:confusion@food.net">madang@food.net</a>
-		           </address>
-                </div> -->
-                <div class="col-12 col-sm-4 align-self-center">
-                    <div class="text-center">
-                        <a class="btn btn-social-icon btn-google" href="http://google.com/+"><i class="fa fa-google-plus"></i></a>
-                        <a class="btn btn-social-icon btn-facebook" href="http://www.facebook.com/profile.php?id="><i class="fa fa-facebook"></i></a>
-                        <a class="btn btn-social-icon btn-linkedin" href="http://www.linkedin.com/in/"><i class="fa fa-linkedin"></i></a>
-                        <a class="btn btn-social-icon btn-twitter" href="http://twitter.com/"><i class="fa fa-twitter"></i></a>
-                        <a class="btn btn-social-icon btn-google" href="http://youtube.com/"><i class="fa fa-youtube"></i></a>
-                        <a class="btn btn-social-icon" href="mailto:"><i class="fa fa-envelope-o"></i></a>
-                    </div>
-                </div>
-           </div>
-           <div class="col-12 col-sm-4 align-self-center">
-            <div class="text-center">
-                <a class="btn btn-social-icon btn-google" href="http://google.com/+"><i class="fa fa-google-plus"></i></a>
-                <a class="btn btn-social-icon btn-facebook" href="http://www.facebook.com/profile.php?id="><i class="fa fa-facebook"></i></a>
-                <a class="btn btn-social-icon btn-linkedin" href="http://www.linkedin.com/in/"><i class="fa fa-linkedin"></i></a>
-                <a class="btn btn-social-icon btn-twitter" href="http://twitter.com/"><i class="fa fa-twitter"></i></a>
-                <a class="btn btn-social-icon btn-google" href="http://youtube.com/"><i class="fa fa-youtube"></i></a>
-                <a class="btn btn-social-icon" href="mailto:"><i class="fa fa-envelope-o"></i></a>
-            </div>
+      <div class="two">
+        <img src="./select-program-background.jpg" width="0.05%">
+      </div>
+      <div class="lifestyle">
+        YOUR GOALS THAT MATCH<br> YOUR LIFESTYLE
+      </div>
+      <div class="scroll1"><select><option selected disabled style="color:rgba(32, 236, 9, 0.815); ">I want to lose weight</option></select>
+    </div>
+    <br>
+    <div class="scroll2"><select><option selected disabled style="color:rgba(32, 236, 9, 0.815);">I need accelerated results</option></select>
+    </div>
+    <br>
+    <div class="scroll3"><select><option selected disabled style="color:rgba(32, 236, 9, 0.815);">I am vegan</option></select>
+      </div>
+      <button type="button" id="compare">COMPARE ALL PROGRAMS</button>
+      </div>
+    <br /><br /><br /><br />
+    <div class="select">
+      <div class="program">
+    <center><large>Select Program</large></center><br>
+    </div>
+    <div>
+      <select class="program"><option selected disabled style="color: rgba(32, 236, 9, 0.815)">Accelerated Weight Program</option></select>
+    </div>
+    </div>
+    <div class="container">
+      <div id="st-box">
+        <h2>TEST DAY</h2>
+        <h1 style="color:rgba(32, 236, 9, 0.815)">$39</br>
+                  <h3>/day</h3></h1>
+        <p>Meals for Breakfast, Lunch,<br> Dinner and Snack with 4<br> Week Rotation</p>
+        <p>Calories Female 1150-1350, <br>Male 1300-1600</p>
+        <p>Protein Customization <br>Limited Protein <br>Customization</p>
+        <p><a href="/"><button type="button" id="button3">ORDER NOW</button></a></p>
+      </div>
+      <div id="nd-box">
+        <h2>ONE WEEK</h2>
+        <h1 style="color:rgba(236, 221, 9, 0.815)">$200</br>
+                  <h3>/week</h3></h1>
+                  <p>Meals for Breakfast, Lunch,<br> Dinner and Snack with 4<br> Week Rotation</p>
+        <p>Calories Female 1150-1350, <br>Male 1300-1600</p>
+        <p>Protein Customization <br>Limited Protein <br>Customization</p>
+        <p><a href="/"><button type="button" id="button2">ORDER NOW</button></a></p>
+      </div>
+      <div id="rd-box">
+        <h2>ONE MONTH</h2>
+        <h1 style="color:rgba(32, 236, 9, 0.815)">$350</br>
+                  <h3>/month</h3></h1>
+                  <p>Meals for Breakfast, Lunch,<br> Dinner and Snack with 4<br> Week Rotation</p>
+                  <p>Calories Female 1150-1350, <br>Male 1300-1600</p>
+                  <p>Protein Customization <br>Limited Protein <br>Customization</p>
+        <p><a href="/"><button type="button" id="button3">ORDER NOW</button></a></p>
+      </div>
+      </div>
+      <br><br>
+    <div id="video">
+      <img src="./video-bg.jpg" />
+    </div>
+    <br /><br /><br /><br />
+    <br />
+    <center><h4>MENU CATEGORIES</h4></center>
+    <div class="category">
+      <div class="cat">
+        <img
+          src="./shutterstock_350816009-270x270.jpeg"
+          alt="breakfast"
+          height="200px"
+          width="200px"
+        />
+        <div class="center">BREAKFAST</div>
+      </div>
+      <div class="cat">
+        <img
+          src="./MAPLE-PECAN-MUFFINS-3-WATERMARK-270x270.jpg"
+          alt="dessert"
+          height="200px"
+          width="200px"
+        />
+        <div class="center">DESSERTS</div>
+      </div>
+      <div class="cat">
+        <img
+          src="./shutterstock_153843404-270x270.jpeg"
+          alt="dinner"
+          height="200px"
+          width="200px"
+        />
+        <div class="center">DINNER</div>
+      </div>
+      <div class="cat">
+        <img
+          src="./menu-img2.jpg"
+          alt="meat&fish"
+          height="200px"
+          width="200px"
+        />
+        <div class="center">MEAT&FISH</div>
+      </div>
+      <br />
+      <div class="cat">
+        <img
+          src="./shutterstock_2735862711-270x270.jpeg"
+          alt="lunch"
+          height="200px"
+          width="200px"
+        />
+        <div class="center">LUNCH</div>
+      </div>
+      <div class="cat">
+        <img
+          src="./featured-image5-270x270.jpg"
+          alt="salad"
+          height="200px"
+          width="200px"
+        />
+        <div class="center">SALAD</div>
+      </div>
+      <div class="cat">
+        <img src="./menu-img3.jpg" alt="soup" height="200px" width="200px" />
+        <div class="center">SOUPS</div>
+      </div>
+      <div class="cat">
+        <img
+          src="./shutterstock_251208661-270x270.jpeg"
+          alt="vegetarian"
+          height="200px"
+          width="200px"
+        />
+        <div class="center">VEGETARIAN</div>
+      </div>
+    </div>
+    <br /><br /><br /><br />
+    <center>OUR PASSIONATE TEAM MEMBER</center>
+    <br />
+    <center>
+      Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse
+      molestie<br />
+      consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et
+      accumsan et <br />iusto odio dignissim qui blandit.
+    </center>
+    <br /><br />
+    <div class="members">
+      <div class="mem">
+        <img src="./member1.jpg" alt="member" class="round" />
+        <div class="mem_name">
+          <br /><b>MARINKA SULIS</b><br />Founder & CEO
         </div>
-   </div>
-           <div class="row justify-content-center">             
-                <div class="col-auto">
-                    <p><center>©2020-2022 Madang. Inc:ALL RIGHTS RESERVED</center></p>
-                </div>
-           </div>
+      </div>
+      <div class="mem">
+        <img src="./member2.jpg" alt="member" class="round" />
+        <div class="mem_name"><br /><b>ROY COLEMAN</b><br />Chief</div>
+      </div>
+      <div class="mem">
+        <img src="./member3.jpg" alt="member" class="round" />
+        <div class="mem_name">
+          <br /><b>TERESA MAYER</b><br />Marketing Director
         </div>
-      </footer>
- 
-    <!-- <script src="js/jquery.slim.min.js"></script>
-    <script src="js/popper.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <script src="js/jquery.js"></script>
-    <script src="https://use.fontawesome.com/5f877ec309.js"></script> -->
-
-</body>
-
-
-    
+      </div>
+    </div>
+    <br><br><br><br><br>
+    <div class="know-more" style="background-color: lightgrey;">
+      <center style="text-decoration-color: black;">LATEST BLOG</center>
+      <!-- <div class="glutten">
+        <img src="./shutterstock_112976938-389x258.jpeg" width="300px">
+      <div class="glutten-text">
+        <h4>5 simple and healthy glutten free cookie recipes</h4>
+        Nov 16. 2016
+        <p>Headings Header one Header two Header three Header four Header five Header six Blockquotes Single line blockquote: Stay hungry. Stay foolish. Multi line blockquote with a cite reference: People think[...]</p>
+      </div>
+      </div>
+      <div class="eating-easy">
+        <img src="./shutterstock_110049707-389x258.jpeg" width="300px"> 
+        <div class="eating-easy-text">
+        <h5>6 tips to make paleo eating easy + [..]</h5>
+        Nov 16. 2016
+        <p>Headings Header one Header two Header three Header four Header five Header six Blockquotes Single line blockquote: Stay hungry. Stay foolish. Multi line blockquote with a cite reference: People think[...]</p>
+         </div>
+        </div>
+      <div class="healthy">
+        <img src="./shutterstock_127177115-389x258.jpeg" width="300px">
+      <div class="healthy-text">
+        <h5>5 foods that sound healthy but aren't</h5>
+        Nov 16. 2016
+        <p>Headings Header one Header two Header three Header four Header five Header six Blockquotes Single line blockquote: Stay hungry. Stay foolish. Multi line blockquote with a cite reference: People think[...]</p>
+      </div>
+      </div> -->
+    </div>
+    <br><br><br><br><br>
+    <!-- <div class="app">
+      <div class="text">
+        <h3 style="color: rgba(32, 236, 9, 0.815);">Download the app</h3>
+        <h1>Choose. Eat. Enjoy</h1>
+        Lorem ipsum dolor sit amet <br>consectetur adipisicing elit. Consequatur at sint ipsa <br>ab culpa earum quos eaque veniam facilis officia.
+      </div>
+      <div class="image1">
+        <img src="./mobile-phone-big.png">
+      </div>
+      <div class="image2">
+        <img src="./google-play.png">
+      </div>
+      <div class="image3">
+        <img src="./app-store.png">
+      </div>
+    </div> -->
+  </body>
+</html>
